@@ -1,0 +1,30 @@
+.drinkCard {
+    width: 300px;
+}
+
+.drinkCard > h3 > i {
+    float: right;
+    font-weight: 400;
+}
+
+.drinkCardDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.drinkCardDiv > h3 {
+    margin: 5px 0px;
+}
+
+.drinkCardDiv > ul {
+    margin: 0;
+}
+
+.drinkCardDiv > ul > li {
+    margin-bottom: 8px;
+
+    text-align: end;
+    list-style: none;
+}

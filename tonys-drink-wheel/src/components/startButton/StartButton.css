@@ -1,0 +1,19 @@
+/* .startButton {
+    width: 300px;
+    height: 80px;
+    background-color: #5F5933;
+
+    border-radius: 25%;
+} */
+
+.startButton{
+    width: 235px;
+    height: 54px;
+
+    margin-top: 20px;
+
+    border: 2px #908750 ridge;
+
+    background: #5F5933;
+    border-radius: 33px;
+}

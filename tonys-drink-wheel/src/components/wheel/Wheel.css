@@ -1,0 +1,186 @@
+.wheel-li:nth-child(even) .wheelSpoke{
+    background-color: #9caca7;
+}
+
+.wheel-li:nth-child(odd) .wheelSpoke{
+    background-color: #f9e6bf;
+}
+
+.wheel-li:nth-child(1) {
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(2) {
+    transform: rotate(45deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(3) {
+    transform: rotate(90deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(4) {
+    transform: rotate(135deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(5) {
+    transform: rotate(180deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(6) {
+    transform: rotate(225deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(7) {
+    transform: rotate(270deg) skewY(-45deg);
+}
+
+.wheel-li:nth-child(8) {
+    transform: rotate(315deg) skewY(-45deg);
+}
+
+.wheel {
+    width: 350px;
+    height: 350px;
+    border: 1px solid darkgreen;
+    position: relative;
+    padding: 0;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+
+    animation: spinWheel 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+
+    /* transform: rotate(-22.5deg) */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.wheel-li {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+
+    /* border: 3px ridge #7d7857; */
+
+}
+
+.wheelSpoke{
+    position: absolute;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+
+    
+    text-align: center;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: skewY(45deg) rotate(22.5deg);
+    padding-top:5px;
+}
+
+.wheelSpoke img {
+    /* padding-top: 50%; */
+    height: 32px;
+    width: 32px;
+    /* padding-left: 45%; */
+}
+
+.wheelSpoke p {
+    width: 20%;
+    font-size: 12px;
+}
+
+.spin1{
+    animation: spinWheel1 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin2{
+    animation: spinWheel2 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin3{
+    animation: spinWheel3 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin4{
+    animation: spinWheel4 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin5{
+    animation: spinWheel5 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin6{
+    animation: spinWheel6 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin7{
+    animation: spinWheel7 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+.spin8{
+    animation: spinWheel8 5s ease-in-out 0s forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spinWheel1 {
+    5% {transform: rotate(17deg)}
+    100% {transform: rotate(-1822.5deg);}
+}
+
+@keyframes spinWheel2 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-1867.5deg)}
+}
+
+@keyframes spinWheel3 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-1912.5deg)}
+}
+
+@keyframes spinWheel4 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-1957.5deg)}
+}
+
+@keyframes spinWheel5 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-2002.5deg)}
+}
+
+@keyframes spinWheel6 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-2047.5deg)}
+}
+
+@keyframes spinWheel7 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-2092.5deg)}
+}
+
+@keyframes spinWheel8 {
+    5% {transform: rotate(17deg)}
+
+    100% {transform: rotate(-2137.5deg)}
+}

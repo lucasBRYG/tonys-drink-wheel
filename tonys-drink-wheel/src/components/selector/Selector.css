@@ -1,0 +1,23 @@
+.selector-drink {
+
+    margin: 0;
+
+    font-weight: 300;
+}
+
+.selector-drink__container {
+
+    height: 60px;
+    margin-top: 18px; 
+
+}
+
+.pointer {
+
+    margin: 10px 0 -10px;
+    border-top: 28px rgba(0, 0, 0, 0.755) solid;
+    border-left: 12px transparent solid;
+    border-right: 12px transparent solid;
+
+    z-index: 1;
+}

@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Transfusion",
+        "type": "Cocktail",
+        "icon": "rocksIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Titos Vodka", "Ginger Ale", "Grape Juice"],
+            "calories": 250,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Grapes"]
+    },
+    {
+        "name": "Cattail Manhattan",
+        "type": "Cocktail",
+        "icon": "rocksIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Cattail Woodford Reserve", "Antica Vermouth", "Orange Bitters", "Luxador Black Cherry"],
+            "calories": 110,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Grapes", "Citrus"]
+    },
+    {
+        "name": "20 oz, Brookville IPA",
+        "type": "Draft",
+        "icon": "draftIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Interdependence brew from Brookville Beef Farm"],
+            "calories": 260,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Gluten"]
+    },
+    {
+        "name": "Black Cherry High Noon",
+        "type": "Can/Bottle",
+        "icon": "canIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Canned seltzer from High Noon"],
+            "calories": 90,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": [""]
+    },
+    {
+        "name": "Glass, Colores Del Sol Malbec",
+        "type": "Wine",
+        "icon": "wineGlassIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Malbec by Colores Del Sol"],
+            "calories": 110,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Grapes", "Sulfates"]
+    },
+    {
+        "name": "Water",
+        "type": "Water",
+        "icon": "waterIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["H2O"],
+            "calories": 0,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": [""]
+    },
+    {
+        "name": "20 oz, Guiness Stout",
+        "type": "Draft",
+        "icon": "draftIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Stout brew by Guiness"],
+            "calories": 290,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Gluten"]
+    },
+    {
+        "name": "Cattail Bloody Mary",
+        "type": "Cocktail",
+        "icon": "rocksIcon",
+        "photo": "",
+        "nutrition": {
+            "ingredients": ["Titos Vodka", "Tomato Juice", "Sriracha", "Celery"],
+            "calories": 180,
+            "profile": {
+                "fat": 0,
+                "carbs": 0,
+                "protien": 0
+            }
+        },
+        "allergies": ["Tomatos"]
+    }
+]
