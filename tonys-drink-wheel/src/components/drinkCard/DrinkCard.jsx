@@ -35,8 +35,12 @@ const DrinkCard = ({ drinkWheel, drinkSelection }) => {
         <div className='drinkCardDiv'>
           <h3>Allergies:</h3>
           <ul>
-            {drink.nutrition?.allergies?.map((allergy, i) => {
+            {drink.allergies?.map((allergy, i) => {
+              console.log(allergy)
+              
+              return (
               <li key={i}>{allergy}</li>
+              )
             })}
           </ul>
         </div>
